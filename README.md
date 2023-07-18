@@ -3,17 +3,26 @@
 ## Applicazione mobile del conducente
 Attraverso l’applicazione per smartphone il conducente è in grado di creare delle Box specifiche per il tipo di prodotto che deve trasportare. Egli può specificare dei range di valori all’interno del quale i valori ambientali dovrebbero rimanere.
 
-![](./box1.png)
-![](./box2.png)
+<p align="center">
+  <img src="./box1.png" alt="" style="display: block; margin: 0 auto; width="500; height=700" />
+  <img src="./box2.png" alt="" style="display: block; margin: 0 auto; width="500; height=700" />
+</p>
+
 
 Nella schermata principale il conducente può selezionare una Box da monitorare, e far partire la corsa quando necessario. Una volta iniziata l’acquisizione, sarà visibile un timer che mostra da quanto è iniziata la nostra corsa. Quando i valori misurati saranno al di fuori dei range specificati nella Box, l’applicazione mostrerà in tempo reale questa informazione al conducente, specificando il tipo di anomalia, il valore della misura, e l’orario a cui si è presentata.
 
-![](./start1.png)
-![](./start2.png)
-![](./start3.png)
-![](./start4.png)
+<p align="center">
+  <img src="./start1.png" alt="" style="display: block; margin: 0 auto; width="700; height=500" />
+</p>
+
 
 Quando si è arrivati a destinazione è possibile premere il pulsante “Fine Corsa” in modo da terminare l’acquisizione delle informazioni. Una volta fatto questo comparirà un elemento a schermo che, una volta dopo averci cliccato sopra, renderà visibili tutte le anomalie rilevate durante quella corsa.
+
+<p align="center">
+  <img src="./start2.png" alt="" style="display: block; margin: 0 auto; width="400; height=600" />
+  <img src="./start3.png" alt="" style="display: block; margin: 0 auto; width="400; height=600" />
+  <img src="./start4.png" alt="" style="display: block; margin: 0 auto; width="400; height=600" />
+</p>
 
 ## Architettura
 L’architettura scelta è composta dalle seguenti componenti:
@@ -43,4 +52,4 @@ Questa architettura permette una comunicazione efficiente tra i diversi componen
 
 
 
-Per avviare il progetto andare nella cartella di root e scrivere nel terminale: `ng serve`. Il server è visibile su `http://localhost:4200/`.
+Per avviare il progetto andare nella cartella di root e scrivere nel terminale: `ionic serve`.
